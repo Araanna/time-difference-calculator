@@ -26,13 +26,8 @@
             ],
             "styles": [
               "src/styles.css"
-            ],
-            "server": "src/main.server.ts",
-            "outputMode": "server",
-            "ssr": {
-              "entry": "src/server.ts"
-            }
-          },
+            ]
+               },
           "configurations": {
             "production": {
               "budgets": [
@@ -93,5 +88,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "c2d3cc17-467c-4757-83f8-f1fc5178221b"
   }
 }
