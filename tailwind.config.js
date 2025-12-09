@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{html,ts}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'edu-nsw': ['"Edu NSW ACT Cursive"', 'cursive'],
+      },
+    },
   },
   plugins: [],
 }
